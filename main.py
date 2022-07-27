@@ -51,7 +51,7 @@ def upload_file():
       
 
       
-      return send_file(myxip,as_attachment=True,download_name="sticker.zip")
+      return send_file(myxip,as_attachment=True,attachment_name="sticker.zip")
 		
 if __name__ == '__main__':
     app.run("0.0.0.0")
